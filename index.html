@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="assets/images/monolithe-favicon.ico" type="image/x-icon">
+    <title>Monolithe - Blocs d’escalade naturelle pour les collectivités</title>
+    <meta
+      name="description"
+      content="Monolithe conçoit des aménagements d’escalade en roche naturelle pour les collectivités : projets sur mesure, intégration paysagère, sécurité, durabilité et étude de faisabilité."
+    >
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <script src="assets/js/app.js" defer></script>
+  </head>
+  <body data-page="home" data-home-header="hidden">
+    <header class="site-header">
+      <div class="container header-shell">
+        <a class="brand" href="index.html" aria-label="Monolithe, retour à l'accueil">
+          <span class="brand-mark" aria-hidden="true">
+            <img src="assets/images/MONOLITHE-Noir-Gris.png" alt="">
+          </span>
+          <span class="brand-text">
+            <strong class="sr-only">Monolithe</strong>
+            <span>L'escalade naturelle<br>en milieu urbain.</span>
+          </span>
+        </a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-navigation"
+          data-nav-toggle
+        >
+          Menu
+        </button>
+
+        <nav class="site-nav" id="site-navigation" aria-label="Navigation principale" data-site-nav data-open="false">
+          <ul class="nav-list">
+            <li><a href="solution.html" data-nav="solution">Notre solution</a></li>
+            <li><a href="realisations.html" data-nav="realisations">Réalisations</a></li>
+            <li><a href="equipe.html" data-nav="equipe">Notre équipe</a></li>
+            <li><a href="news.html" data-nav="news">News</a></li>
+            <li><a href="faq.html" data-nav="faq">FAQ</a></li>
+          </ul>
+        </nav>
+
+        <div class="header-actions">
+          <a class="button button-primary header-cta" href="contact.html">Prendre RDV/Être recontacté</a>
+        </div>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="home-video-hero" aria-label="Video d'introduction Monolithe">
+        <div class="home-video-hero-media">
+          <video
+            data-home-video
+            autoplay
+            muted
+            loop
+            playsinline
+            preload="metadata"
+          >
+            <source src="assets/video/video-monolithe-hero.mp4" type="video/mp4">
+          </video>
+          <a class="home-video-hero-logo" href="index.html" aria-label="Monolithe, retour à l'accueil">
+            <img src="assets/images/logo-blanc.png" alt="">
+          </a>
+          <div class="home-video-hero-overlay">
+            <div class="home-video-hero-caption">
+              <p>
+                <span class="home-video-hero-line home-video-hero-line-1">L'escalade naturelle</span>
+                <span class="home-video-hero-line home-video-hero-line-2">En <span class="home-video-hero-highlight">milieu urbain</span>.</span>
+              </p>
+            </div>
+            <div class="home-video-hero-actions">
+              <a class="button home-video-hero-button" href="realisations.html">Découvrir tous nos projets</a>
+            </div>
+          </div>
+          <a class="home-video-scroll-cue" href="#home-intro" aria-label="Faire défiler vers le contenu" data-home-video-cue hidden>
+            <span class="home-video-scroll-arrow" aria-hidden="true"></span>
+          </a>
+        </div>
+      </section>
+
+      <section class="page-hero section-tight" id="home-intro">
+        <div class="container section-shell hero-shell">
+          <div class="hero-copy">
+            <h1>Des blocs d’escalade en roche naturelle pour transformer vos espaces publics, <span class="marker-highlight">une durabilité hors norme</span></h1>
+            <p class="lede">Des aménagements durables issus de <strong>matériaux recyclés, zéro plastique</strong>, pour valoriser vos espaces publics tout en répondant à la <strong>forte demande d'équipements sportifs</strong> de votre population.</p>
+
+            <div class="button-row home-hero-actions" style="margin-top: 2rem;">
+              <a class="button home-hero-projects" href="realisations.html">Voir les réalisations</a>
+              <a class="button home-hero-brochure" href="assets/documents/plaquette-monolithe.svg" download>Télécharger la plaquette</a>
+            </div>
+          </div>
+
+          <figure class="hero-visual">
+            <img src="assets/images/projet-carroz.jpeg" alt="Projet Monolithe installé en espace public">
+          </figure>
+        </div>
+      </section>
+
+      <section class="home-why-section" aria-labelledby="home-why-title" data-home-why data-active="" data-home-why-revealed="false">
+        <div class="home-why-sticky">
+          <div class="home-why-backdrop"></div>
+          <div class="home-why-shell">
+            <h2 id="home-why-title">Pourquoi nos clients choisissent Monolithe?</h2>
+
+            <div class="home-why-stage">
+              <div class="home-why-grid" data-home-why-grid>
+                <button class="home-why-trigger home-why-trigger-nw" type="button" data-home-why-trigger="essor" aria-controls="home-why-detail-essor">
+                  <span>L'escalade, un sport en plein essor</span>
+                </button>
+
+                <button class="home-why-trigger home-why-trigger-ne" type="button" data-home-why-trigger="offre" aria-controls="home-why-detail-offre">
+                  <span>Une nouvelle offre d'équipement public sportif</span>
+                </button>
+
+                <button class="home-why-trigger home-why-trigger-sw" type="button" data-home-why-trigger="approche" aria-controls="home-why-detail-approche">
+                  <span>Une autre approche, écologique, design, et durable</span>
+                </button>
+
+                <button class="home-why-trigger home-why-trigger-se" type="button" data-home-why-trigger="securite" aria-controls="home-why-detail-securite">
+                  <span>Une équipement sécuritaire</span>
+                </button>
+              </div>
+
+              <div class="home-why-detail-wrap">
+                <article class="home-why-detail home-why-detail-split" id="home-why-detail-essor" data-home-why-detail="essor" hidden>
+                  <div class="home-why-detail-layout">
+                    <ul class="home-why-detail-copy home-why-arrow-list">
+                      <li><strong>Plus de 200 salles d’escalade en France.</strong> <strong>3 fois plus qu’il y a 15 ans.</strong></li>
+                      <li><strong>Introduction aux JO, Tokyo 2021.</strong></li>
+                      <li><strong>Nombre d’épreuves doublé</strong> aux JO de <strong>Paris 2024</strong> <strong>(2 médailles)</strong>.</li>
+                      <li><strong>Nombre d’épreuves triplé</strong> aux JO de <strong>Los Angeles 2028</strong>.</li>
+                    </ul>
+                    <figure class="home-why-graph-slot">
+                      <figcaption>3 millions de pratiquants</figcaption>
+                      <img src="assets/images/graph-escalade.png" alt="Graphique sur l'essor de l'escalade">
+                    </figure>
+                  </div>
+                </article>
+
+                <article class="home-why-detail" id="home-why-detail-offre" data-home-why-detail="offre" hidden>
+                  <div class="home-why-points-grid" aria-label="Points clés de la nouvelle offre d'équipement public sportif">
+                    <article class="home-why-point-card">
+                      <h3>Authenticité</h3>
+                      <p>Une expérience de grimpe brute reproduisant fidèlement la texture, les volumes et les sensations de la roche naturelle.</p>
+                    </article>
+                    <article class="home-why-point-card">
+                      <h3>Accessibilité</h3>
+                      <p>Une pratique démocratisée grâce à des équipements urbains 100 % gratuits et en libre accès pour tous.</p>
+                    </article>
+                    <article class="home-why-point-card">
+                      <h3>Durabilité</h3>
+                      <p>Des structures éco-responsables et résilientes, conçues pour s'intégrer durablement dans le paysage de la ville.</p>
+                    </article>
+                    <article class="home-why-point-card">
+                      <h3>Lien social</h3>
+                      <p>De nouveaux lieux de vie intergénérationnels qui ramènent la montagne à la ville pour rassembler autour du sport.</p>
+                    </article>
+                  </div>
+                </article>
+
+                <article class="home-why-detail" id="home-why-detail-approche" data-home-why-detail="approche" hidden>
+                  <div class="home-why-points-grid" aria-label="Points clés de l'approche écologique design et durable">
+                    <article class="home-why-point-card">
+                      <h3>Réemploi raisonné</h3>
+                      <p>Des blocs de roche naturelle issus de carrières, sélectionnés avec soin pour leur qualité, leur présence et leur potentiel sportif.</p>
+                    </article>
+                    <article class="home-why-point-card">
+                      <h3>Circuit court</h3>
+                      <p>Une démarche 100 % française, avec un approvisionnement de la pierre sourcé au plus près de chaque projet d'implantation.</p>
+                    </article>
+                    <article class="home-why-point-card">
+                      <h3>Zéro entretien</h3>
+                      <p>La robustesse absolue de la roche massive garantit une durabilité maximale, sans aucun coût opérationnel pour les collectivités.</p>
+                    </article>
+                    <article class="home-why-point-card">
+                      <h3>Design organique</h3>
+                      <p>Une esthétique minérale, brute et élégante, pensée pour s'intégrer de façon harmonieuse dans les parcs et espaces paysagers.</p>
+                    </article>
+                  </div>
+                </article>
+
+                <article class="home-why-detail" id="home-why-detail-securite" data-home-why-detail="securite" hidden>
+                  <div class="home-why-points-grid home-why-points-grid-safety" aria-label="Points clés sur la sécurité">
+                    <article class="home-why-point-card">
+                      <h3>Ingénierie d'implantation</h3>
+                      <p>Chaque projet fait l’objet d’une étude dédiée pour garantir une implantation cohérente et normée.</p>
+                    </article>
+                    <article class="home-why-point-card">
+                      <h3>Maîtrise des hauteurs &amp; risques</h3>
+                      <p>La hauteur est strictement limitée pour rester dans le cadre du bloc de plein air, conforme NF EN 12572-2.</p>
+                    </article>
+                    <article class="home-why-point-card">
+                      <h3>Système d'amortissement</h3>
+                      <p>Le sol amortissant est dimensionné selon les normes de la <a href="https://www.ffme.fr/" target="_blank" rel="noreferrer">FFME</a>.</p>
+                    </article>
+                    <article class="home-why-point-card">
+                      <h3>Signalétique &amp; topo pédagogique</h3>
+                      <p>Chaque site dispose d'une signalétique claire pour la lecture des parcours et les consignes d'utilisation.</p>
+                    </article>
+                    <article class="home-why-point-card home-why-point-card-wide">
+                      <h3>Contrôle et transparence</h3>
+                      <p>Nous fournissons les dossiers techniques nécessaires aux bureaux de contrôle pour une mise en service sans réserve.</p>
+                    </article>
+                  </div>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container section-shell case-study">
+          <div class="case-visual-stack" data-case-slider aria-label="Galerie du projet Bliiida">
+            <figure class="case-visual">
+              <img class="case-visual-slide is-active" src="assets/images/projet-blida-enfants.png" alt="Projet Bliiida sur le site de Metz avec des enfants">
+              <img class="case-visual-slide" src="assets/images/projet-blida-2.png" alt="Vue du projet Bliiida à Metz">
+              <img class="case-visual-slide" src="assets/images/micka-carrée.png" alt="Mickael Mawem sur le projet Bliiida">
+              <img class="case-visual-slide" src="assets/images/blida-3.png" alt="Vue complémentaire du projet Bliiida">
+            </figure>
+            <div class="case-visual-controls" aria-label="Navigation de la galerie">
+              <button class="case-visual-arrow" type="button" data-case-prev aria-label="Photo précédente">‹</button>
+              <div class="case-visual-dots" role="group" aria-label="Choisir une photo du projet">
+                <button class="case-visual-dot is-active" type="button" data-case-dot="0" aria-label="Afficher la photo 1" aria-pressed="true"></button>
+                <button class="case-visual-dot" type="button" data-case-dot="1" aria-label="Afficher la photo 2" aria-pressed="false"></button>
+                <button class="case-visual-dot" type="button" data-case-dot="2" aria-label="Afficher la photo 3" aria-pressed="false"></button>
+                <button class="case-visual-dot" type="button" data-case-dot="3" aria-label="Afficher la photo 4" aria-pressed="false"></button>
+              </div>
+              <button class="case-visual-arrow" type="button" data-case-next aria-label="Photo suivante">›</button>
+            </div>
+          </div>
+
+            <div class="case-copy case-copy-spec">
+              <div>
+                <span class="eyebrow">Exemple de projet</span>
+              <h2>Bliiida, Metz (France)</h2>
+            </div>
+
+            <div class="case-spec-grid" aria-label="Fiche technique du projet Bliiida à Metz">
+              <article class="case-spec-item">
+                <span class="case-spec-label">Date de réalisation</span>
+                <strong class="case-spec-value">Été 2025.</strong>
+              </article>
+              <article class="case-spec-item">
+                <span class="case-spec-label">Type de roche</span>
+                <strong class="case-spec-value">Deux monolithes, calcaire.</strong>
+              </article>
+              <article class="case-spec-item">
+                <span class="case-spec-label">Sol</span>
+                <strong class="case-spec-value">Sol amortissant en gravier.</strong>
+              </article>
+              <article class="case-spec-item">
+                <span class="case-spec-label">Parcours</span>
+                <strong class="case-spec-value">Environ 30 parcours.</strong>
+              </article>
+              <article class="case-spec-item">
+                <span class="case-spec-label">Public visé</span>
+                <strong class="case-spec-value">Adulte et enfant.</strong>
+              </article>
+              <article class="case-spec-item">
+                <span class="case-spec-label">Niveaux</span>
+                <strong class="case-spec-value">Découverte à confirmé (niveau 4a - 7b).</strong>
+              </article>
+              <article class="case-spec-item">
+                <span class="case-spec-label">Type de mur</span>
+                <strong class="case-spec-value">Dalle, proue, dévers.</strong>
+              </article>
+              <article class="case-spec-item">
+                <span class="case-spec-label">Emprise au sol</span>
+                <strong class="case-spec-value">Environ 100 m².</strong>
+              </article>
+            </div>
+
+            <div class="button-row">
+              <a class="button button-primary" href="assets/images/topo-carré.png" download>Télécharger le topo du site</a>
+              <a class="case-location-link" href="https://www.google.com/maps/search/?api=1&amp;query=7+Avenue+de+Blida,+57000+Metz,+France" target="_blank" rel="noreferrer">Voir l’emplacement</a>
+              <a class="button button-secondary" href="realisations.html">Tous nos projets</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <div class="container faq-grid home-faq-grid home-faq-shell">
+            <div class="surface panel-padding surface-muted home-faq-main">
+              <div class="section-heading">
+                <span class="eyebrow">FAQ</span>
+                <h2>Questions fréquentes</h2>
+              </div>
+
+              <div class="faq-list">
+                <article class="faq-item">
+                  <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-home-1" data-faq-question>
+                    <span>Nos équipements sont-ils éligibles aux aides publiques ?</span>
+                  </button>
+                  <div class="faq-answer" id="faq-home-1" data-open="false" hidden>
+                    Oui. Nos équipements sont répertoriés comme des <strong>blocs d’escalade</strong> et peuvent donc être éligibles à différentes aides publiques. Ils peuvent notamment bénéficier d’aides de l’État au titre du <strong>plan 5000 équipements</strong>, ainsi que d’autres politiques publiques de subvention des équipements sportifs.
+                  </div>
+                </article>
+                <article class="faq-item">
+                  <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-home-2" data-faq-question>
+                    <span>Peut-on amener un groupe de collégiens ou lycéens sur les sites Monolithe ?</span>
+                  </button>
+                  <div class="faq-answer" id="faq-home-2" data-open="false" hidden>
+                    Oui. Nous travaillons déjà avec des <strong>professeurs d’escalade</strong> qui voient dans nos projets une possibilité simple et peu onéreuse de faire découvrir à leurs élèves <strong>l’escalade de bloc en milieu extérieur</strong>. Ces sites peuvent donc constituer un support très accessible pour des groupes scolaires, dans un cadre lisible et adapté à l’initiation comme à la progression.
+                  </div>
+                </article>
+                <article class="faq-item">
+                  <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-home-3" data-faq-question>
+                    <span>En quoi Monolithe se distingue-t-il d’une structure artificielle classique ?</span>
+                  </button>
+                  <div class="faq-answer" id="faq-home-3" data-open="false" hidden>
+                    Monolithe travaille avec <strong>de vrais blocs de roche naturelle recyclés</strong> issus de carrière. Les parcours sont créés directement dans la roche, <strong>sans ajout de prises artificielles</strong>, puis référencés dans un topo. Le résultat est une pratique plus proche du bloc extérieur et une intégration paysagère plus naturelle.
+                  </div>
+                </article>
+                <article class="faq-item">
+                  <button class="faq-question" type="button" aria-expanded="false" aria-controls="faq-home-4" data-faq-question>
+                    <span>À qui s’adresse Monolithe ?</span>
+                  </button>
+                  <div class="faq-answer" id="faq-home-4" data-open="false" hidden>
+                    Monolithe s’adresse à <strong>tout porteur de projet, public comme privé</strong>, qui souhaite aménager un lieu accessible à un groupe, dans un cadre public ou privé. La majorité de nos clients sont des <strong>collectivités</strong>, mais nous accompagnons aussi des projets privés, comme des <strong>salles d’escalade</strong> ou des <strong>entreprises disposant d’un espace extérieur</strong>.
+                  </div>
+                </article>
+              </div>
+
+              <div class="button-row home-faq-actions">
+                <a class="button button-primary" href="faq.html">Voir la FAQ complète</a>
+              </div>
+            </div>
+
+            <aside class="surface panel-padding surface-muted home-faq-contact" aria-labelledby="home-faq-contact-title">
+              <span class="eyebrow">Contact</span>
+              <h3 id="home-faq-contact-title">Vous avez un projet ou une question&nbsp;?</h3>
+              <p>Choisissez directement le mode de contact qui vous convient.</p>
+
+              <div class="home-faq-contact-actions">
+                <a class="button button-primary" href="contact.html#callback-section">Être recontacté</a>
+                <a class="button button-secondary" href="contact.html#meeting-section">Prendre rendez-vous</a>
+              </div>
+
+              <figure class="home-faq-contact-media">
+                <img src="assets/images/salon-maires.jpg" alt="Équipe Monolithe au Salon des Maires">
+              </figure>
+            </aside>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-shell">
+        <div class="footer-main">
+          <div class="footer-brand-block">
+            <h3 class="footer-block-title">Coordonnées</h3>
+            <div class="footer-contact">
+              <div class="footer-contact-item">
+                <span class="footer-contact-label">Adresse</span>
+                <p>7 Avenue de Blida, 57000 Metz, France</p>
+              </div>
+              <div class="footer-contact-item">
+                <span class="footer-contact-label">Téléphone</span>
+                <a href="tel:+33683541202">06 83 54 12 02</a>
+              </div>
+              <div class="footer-contact-item">
+                <span class="footer-contact-label">Horaires</span>
+                <p>Lundi au vendredi, 9h - 18h</p>
+              </div>
+            </div>
+            <div class="footer-socials">
+              <a href="https://www.instagram.com/monolithe_climbing/" target="_blank" rel="noreferrer">Instagram</a>
+              <a href="https://www.linkedin.com/company/monolithe-climbing" target="_blank" rel="noreferrer">LinkedIn</a>
+            </div>
+            <a class="button footer-cta" href="contact.html">Prendre RDV/Être recontacté</a>
+          </div>
+          <div class="footer-column">
+            <h3>Notre solution</h3>
+            <div class="footer-links footer-links-arrow">
+              <a href="solution.html">Notre solution</a>
+              <a href="realisations.html">Réalisations</a>
+            </div>
+          </div>
+          <div class="footer-column">
+            <h3>Aide &amp; informations</h3>
+            <div class="footer-links footer-links-arrow">
+              <a href="faq.html">FAQ</a>
+              <a href="news.html">News</a>
+              <a href="equipe.html">Notre équipe</a>
+              <a href="contact.html">Nous contacter</a>
+            </div>
+          </div>
+          <div class="footer-column">
+            <h3>Nos garanties</h3>
+            <ul class="footer-list list-reset">
+              <li>Roche naturelle et recyclée</li>
+              <li>Intégration paysagère</li>
+              <li>Made in Europe</li>
+              <li>Respect des normes et réglementations</li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-legal">
+          <p>© 2026 Monolithe · SIRET 981 793 490 00013</p>
+          <div class="footer-legal-links">
+            <a href="plan-du-site.html">Plan du site</a>
+            <a href="mentions-legales.html">Mentions légales</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

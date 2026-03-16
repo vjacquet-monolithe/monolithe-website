@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 220" fill="none">
+  <defs>
+    <linearGradient id="rock-gradient" x1="42" y1="24" x2="252" y2="198" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7D846E"/>
+      <stop offset="1" stop-color="#4C6436"/>
+    </linearGradient>
+    <filter id="rock-blur-filter" x="0" y="0" width="320" height="220" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="14"/>
+    </filter>
+  </defs>
+  <g filter="url(#rock-blur-filter)" opacity="0.9">
+    <path d="M57 172 79 90 135 42 213 51 271 118 250 179 104 188Z" fill="url(#rock-gradient)"/>
+  </g>
+</svg>
