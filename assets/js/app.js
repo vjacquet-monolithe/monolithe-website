@@ -1,3 +1,9 @@
+function normalizeHomeUrl() {
+  if (window.location.pathname !== "/index.html") return;
+
+  window.history.replaceState(null, "", `/${window.location.search}${window.location.hash}`);
+}
+
 function setActiveNav() {
   const page = document.body.dataset.page;
   if (!page) return;
@@ -604,6 +610,7 @@ function setupRevealAnimations() {
 }
 
 document.addEventListener("DOMContentLoaded", () => {
+  normalizeHomeUrl();
   setActiveNav();
   setupNavigation();
   setupAccordions();
