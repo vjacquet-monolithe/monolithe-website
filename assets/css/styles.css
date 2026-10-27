@@ -1874,14 +1874,17 @@ body[data-page="equipe"] .team-page-section:first-of-type {
   color: var(--text-secondary);
 }
 
-.project-pilot-notice {
-  font-size: 14px;
-  line-height: 1.55;
+.project-access-note {
+  width: fit-content;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.45;
+  color: var(--accent-primary);
 }
 
-.project-list-notice {
-  max-width: 820px;
-  margin: 22px 0 28px;
+.project-card-flip .news-copy .project-access-note {
+  font-size: 12px;
+  line-height: 1.35;
 }
 
 .contact-grid {
