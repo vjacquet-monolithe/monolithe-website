@@ -1,0 +1,10 @@
+BEGIN:VCARD
+VERSION:3.0
+N:REVEILLE;Théau;;;
+FN:Théau REVEILLE
+ORG:MONOLITHE
+TITLE:Co-fondateur
+TEL;TYPE=CELL,VOICE:+33683541202
+EMAIL;TYPE=INTERNET,WORK:t.reveille@monolitheclimbing.fr
+URL:https://monolitheclimbing.fr
+END:VCARD
